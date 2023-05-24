@@ -1,0 +1,77 @@
+body{
+  font-family: "Lato","游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro","ＭＳ ゴシック",sans-serif;
+    webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+.img{
+    height:210px;
+    width:210px;
+    display:inline-block;
+    margin-right:5px;
+margin-bottom:5px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    object-fit:cover;
+    transition:transform 0.2s ease-in-out;
+}
+.image-container {
+   // text-align: center; /* 画像を中央揃えにするために親要素にテキストを中央寄せにする */
+  }
+  .img:hover{
+transform:scale(1.05);
+  }
+  .article_image{
+    width:600px;
+   margin-bottom:15px;
+  }
+  .container{
+    align:center;
+    margin:auto;
+    margin-bottom:10px;
+    width:700px;
+  }
+ .botton:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    background-color: #34D399; /* 好きな色に変更 */
+    color: #000;
+  }
+  #head-image{
+    background-image:url(../image/drftgyhuij_TP_V.jpg);
+    height:300px;
+    width:100%;
+  }
+
+  
+
+  .catch {
+  display: flex;
+  align-items: center; /* 垂直中心 */
+  justify-content: center; /* 水平中心 */
+}
+.catch:before, .catch:after {
+  border-top: 1px solid;
+  content: "";
+  width: 22em; /* 線の長さ */
+}
+.catch:before {
+  margin-right: 1em; /* 文字の右隣 */
+}
+.catch:after {
+  margin-left: 1em; /* 文字の左隣 */
+}
+
+.textbox-001 {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #969da3;
+    border-radius: 25px;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.textbox-001::placeholder {
+    color: #999;
+}
