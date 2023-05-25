@@ -1,11 +1,11 @@
-@extends('layouts.auth')
+@extends('layouts.app')
 
-@section('content')
+@section('main')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <p class="pl-3 border-l-4 border-green-400  text-lg font-semibold mb-3">新規会員登録</p>
 
                 <div class="card-body">
                     <div class="image-container">
@@ -67,9 +67,9 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
+                                <button type="submit" value="投稿する" class="mt-[12px] px-8 py-1 m-3 bg-green-400 text-white font-semibold rounded-full">
+                                    登録
+                                    </button>
                             </div>
                         </div>
                     </form>
